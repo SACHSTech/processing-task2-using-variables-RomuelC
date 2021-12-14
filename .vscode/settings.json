@@ -2,7 +2,8 @@
     "java.project.referencedLibraries": {
         "include": [
             "lib/**/*.jar",
-            "c:\\Program Files\\Jar's Processing\\core.jar"
+            "c:\\Program Files\\Jar's Processing\\core.jar",
+            "c:\\Program Files\\Jar's  Processing\\Vs code core (1).jar"
         ],
         "exclude": [
             "lib/repl_core.jar"
