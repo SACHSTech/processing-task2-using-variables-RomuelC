@@ -29,35 +29,33 @@ public class Sketch extends PApplet {
     
     // Grass
     fill(31, 120, 13);
-    rect(0, 400, 500, 100);
+    rect(0, (float) (width / 1.25), (height), (width / 5));
     
     // Church
     fill(148, 62, 9);
-    rect(200, 300, 200, 300);
+    rect((float) (width / 2.5), (float) (height / 1.67), (float) (width / 2.5), (float) (height / 1.67));
     
     // Church Door
     fill(15, 15, 15);
-    rect(275, 450, 50, 70);  
+    rect((float) (width / 1.8),(float) (height / 1.1),(float) (width / 10),(float) (height / 7.14));  
     
     // Roof
     fill(123, 135, 120);
-    triangle(300, 10, 200, 300, 400, 300);
+    triangle((float) (width / 1.67),(float) (height / 50),(float) (width / 2.5), (float) (height / 1.67),(float) (width / 1.25),(float) (height / 1.67));
     
     // Cross Y
-    line(300, 120, 300, 200);  
+    line((float) (width / 1.67),(float) (height / 4.167),(float) (width / 1.67),(float) (height / 2.5));  
     
     // Cross X
-    line(330, 150, 270, 150);    
+    line((float) (width / 1.51),(float) (height / 3.3),(float) (width / 1.85),(float) (height / 3.3));    
     
     // Left Window
     fill(119, 64, 237);
-    ellipse(350, 400, 45, 45);
+    ellipse((float) (width / 1.43),(float) (height / 1.25),(float) (width / 11.1),(float) (height / 11.1));
     
     // Right Window
     fill(119, 64, 237);
-    ellipse(250, 400, 45, 45);
+    ellipse((float) (width / 2),(float) (height / 1.25),(float) (width / 11.1),(float) (width / 11.1));
     
   }
-  
-  // define other methods down here.
 }
